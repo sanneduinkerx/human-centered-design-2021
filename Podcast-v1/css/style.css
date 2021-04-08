@@ -1,16 +1,44 @@
+/*************/
+/* ALGEMEEN */
+/***********/
+
 body{
     /* nog uitzoeken welke beste font is */
     font-family: 'Open Sans', sans-serif;
     margin: 0em;
 }
 
-/* Layout */
 
+/*********************/
+/****** HEADER ******/
+/*******************/
 
+header{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
 
-/**************/
-/* transcript */
-/*************/
+header p{
+    margin: 0;
+}
+
+header p:first-of-type{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*************************/
+/****** TRANSCRIPT ******/
+/***********************/
+
+.transcript {
+    margin: auto;
+}
 
 ul{
     padding: 0;
@@ -21,29 +49,72 @@ ul li{
     margin: 2em 1em;
     background-color: rgb(190, 190, 190);
     border-radius: 10px;
+    /* fijnste lezen, qua breedte: 600px */
+    /* note dat dit 750 is, komt door de min width van de naam */
+    max-width: 770px; 
+}
+
+ul li p{
+    font-size: 22px;
     padding: 1em;
-    max-width: 600px; /* fijnste lezen, qua breedte */
 }
 
 ul li p:first-of-type{
     font-weight: 700;
+    min-width: 170px;
+    margin: auto 0;
 }
 
-/* Tune */ 
+/*************/
+/* SPREKERS */
+/***********/
+
+ul li .person1, ul li .person2, ul li .person3 {
+
+}
+
+ul li .person1{
+    background-color: rgba(233,71,71,1);
+    border-radius: 10px 10px 0px 0px;
+    padding: .5em;
+}
+
+ul li .person2{
+    background-color:  rgba(51,147,226,1);
+    border-radius: 10px 10px 0px 0px;
+    padding: .5em;
+}
+
+ul li .person3{
+    background-color: rgba(227,146,56,1);
+    border-radius: 10px 10px 0px 0px;
+    padding: .5em;
+}
+
+/****************/
+/**** TUNE *****/
+/**************/
 
 .tune {
     background: rgb(233,71,71);
     background: linear-gradient(133deg, rgba(233,71,71,1) 7%, rgba(227,146,56,1) 21%, rgba(239,242,56,1) 43%, rgba(131,240,99,1) 63%, rgba(51,147,226,1) 82%); 
+}
+
+ul li.tune p{
     text-align: center;
 }
 
-/* footer */
+/*********************/
+/****** FOOTER *******/
+/********************/
 
-footer{
+footer p{
     text-align: center;
 }
 
-/* responsive */
+/**************************/
+/****** RESPONSIVE *******/
+/************************/
 
 @media (min-width: 750px){
 
@@ -55,4 +126,13 @@ footer{
         grid-column-gap: 2em;
     }
 
+    /* transcript */
+
+    ul li{
+        display: flex;
+    }
 }
+
+/*******************/
+/*** DARK MODE ****/
+/*******************/
