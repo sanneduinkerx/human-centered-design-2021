@@ -1,3 +1,58 @@
-* {
-    margin: 0;
+body{
+    /* nog uitzoeken welke beste font is */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0em;
+}
+
+/* Layout */
+
+
+
+/**************/
+/* transcript */
+/*************/
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    margin: 2em 1em;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    padding: 1em;
+    max-width: 600px; /* fijnste lezen, qua breedte */
+}
+
+ul li p:first-of-type{
+    font-weight: 700;
+}
+
+/* Tune */ 
+
+.tune {
+    background: rgb(233,71,71);
+    background: linear-gradient(133deg, rgba(233,71,71,1) 7%, rgba(227,146,56,1) 21%, rgba(239,242,56,1) 43%, rgba(131,240,99,1) 63%, rgba(51,147,226,1) 82%); 
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+}
+
+/* responsive */
+
+@media (min-width: 750px){
+
+    /* LAYOUT */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 2em;
+    }
+
 }
