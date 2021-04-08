@@ -21,8 +21,8 @@ In de wiki, die je [hier]() kunt, staat per week het proces van testen, itereren
 
 ### Verschillende Demo's:
 
-**Geteste demo's - 7 april:** [Demo's](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
-**Versie 1 - 8 april:** [Versie 1 Podcast]()
+- **Geteste demo's - 7 april:** [Demo's](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
+- **Versie 1 - 8 april:** [Versie 1 Podcast]()
 
 <!-- [Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/) -->
 
