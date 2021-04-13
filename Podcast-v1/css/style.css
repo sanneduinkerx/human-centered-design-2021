@@ -32,9 +32,34 @@ header p:first-of-type{
     font-weight: 700;
 }
 
+/****************************/
+/**** DARK MODE BUTTON *****/
+/**************************/
+
+.darkMode {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 1em;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgb(113, 113, 113);
+    transition: .5s ease;
+}
+
+.darkMode:hover{
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+    box-shadow: 1px 1px 4px rgb(113, 113, 113);
+}
+
 /*************************/
 /****** TRANSCRIPT ******/
 /***********************/
+
+main{
+    margin: 1em;
+}
 
 .transcript {
     margin: auto;
@@ -46,22 +71,24 @@ ul{
 
 ul li{
     list-style: none;
-    margin: 2em 1em;
+    margin: 1em 0em;
     background-color: rgb(190, 190, 190);
     border-radius: 10px;
     /* fijnste lezen, qua breedte: 600px */
     /* note dat dit 750 is, komt door de min width van de naam */
-    max-width: 770px; 
+    max-width: 650px; 
 }
 
 ul li p{
     font-size: 22px;
-    padding: 1em;
+    padding: .8em;
+    margin: .2em 0em 0em 0em;
+    line-height: 33px;
 }
 
 ul li p:first-of-type{
     font-weight: 700;
-    min-width: 170px;
+    min-width: 145px;
     margin: auto 0;
 }
 
@@ -70,25 +97,20 @@ ul li p:first-of-type{
 /***********/
 
 ul li .person1, ul li .person2, ul li .person3 {
-
+    border-radius: 10px 10px 0px 0px;
+    padding: .5em;
 }
 
 ul li .person1{
     background-color: rgba(233,71,71,1);
-    border-radius: 10px 10px 0px 0px;
-    padding: .5em;
 }
 
 ul li .person2{
     background-color:  rgba(51,147,226,1);
-    border-radius: 10px 10px 0px 0px;
-    padding: .5em;
 }
 
 ul li .person3{
     background-color: rgba(227,146,56,1);
-    border-radius: 10px 10px 0px 0px;
-    padding: .5em;
 }
 
 /****************/
@@ -130,6 +152,22 @@ footer p{
 
     ul li{
         display: flex;
+        max-width: 750px; 
+    }
+
+    ul li .person1, ul li .person2, ul li .person3 {
+        border-radius: 10px 0px 0px 10px;
+        padding: .5em;
+        width: inherit;
+    }
+
+    ul li p {
+        padding: .8em;
+        margin: 0em 0em 0em 0em;
+    }
+
+    ul li p:first-of-type{
+        margin: 0;
     }
 }
 

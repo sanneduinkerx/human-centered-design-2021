@@ -9,7 +9,7 @@ Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwe
 
 ### Ontwerpen met en voor echte mensen
 
-Binnen dit vak krijg ik een ontwerp opdracht die ik ga maken voor 1 persoon. Een echt persoon waarmee ik 3 keer mijn ontwerp mag testen. Door steeds te itereren verbeter ik mijn ontwerp. Ik mag voor Darice da Cuba een ontwerp maken en ik heb gekozen voor het onderwerp Podcast. Darice is op latere leeftijd doof geworden, en kan zich dus nog wel geluid herinneren. Ze kan geen podcasts luisteren maar ze leest vaak de transcript. Voor mij als opdracht om een ontwerp te maken van een transcript van podcasts. Zodat Darice makkelijk en rustig het transcript kan lezen van een podcast.
+Binnen dit vak krijg ik een ontwerp opdracht die ik ga maken voor 1 persoon. Een echt persoon waarmee ik 3 keer mijn ontwerp mag testen. Door steeds te itereren verbeter ik mijn ontwerp. Ik mag voor Darice de Cuba een ontwerp maken en ik heb gekozen voor het onderwerp Podcast. Darice is op latere leeftijd doof geworden, en kan zich dus nog wel geluid herinneren. Ze kan geen podcasts luisteren maar ze leest vaak de transcript. Voor mij als opdracht om een ontwerp te maken van een transcript van podcasts. Zodat Darice makkelijk en rustig het transcript kan lezen van een podcast.
 
 ## Proces
 
