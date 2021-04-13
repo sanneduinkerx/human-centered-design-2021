@@ -27,10 +27,31 @@ header p{
     margin: 0;
 }
 
-header p:first-of-type{
+header > p{
     text-transform: uppercase;
     font-weight: 700;
 }
+
+/****************************/
+/****** EDITOR MODE  *******/
+/**************************/
+
+header section > p a{
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    background-color: blueviolet;
+    top: -10em;
+    right: 0em;
+}
+
+.menu.show{
+    top: 2em;
+    right: 0em;
+}
+
 
 /****************************/
 /**** DARK MODE BUTTON *****/
@@ -102,15 +123,15 @@ ul li .person1, ul li .person2, ul li .person3 {
 }
 
 ul li .person1{
-    background-color: rgba(233,71,71,1);
+    background-color: rgb(197, 78, 78);
 }
 
 ul li .person2{
-    background-color:  rgba(51,147,226,1);
+    background-color:  rgb(52, 123, 180);
 }
 
 ul li .person3{
-    background-color: rgba(227,146,56,1);
+    background-color: rgb(194, 130, 57);
 }
 
 /****************/
