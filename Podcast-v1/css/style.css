@@ -80,6 +80,7 @@ header section > p a{
 
 main{
     margin: 1em;
+    font-size: 20px;
 }
 
 .transcript {
@@ -111,6 +112,10 @@ ul li p:first-of-type{
     font-weight: 700;
     min-width: 145px;
     margin: auto 0;
+}
+
+ul li p i{
+    font-weight: bold;
 }
 
 /*************/
@@ -195,3 +200,39 @@ footer p{
 /*******************/
 /*** DARK MODE ****/
 /*******************/
+
+.darkmode1  header section p:nth-of-type(2), .darkmode2  header section p:nth-of-type(3), .darkmode3  header section p:nth-of-type(4){
+    font-weight: 700;
+}
+
+
+/* Darkmode 1 */
+
+.darkmode1 {
+    background-color: black;
+    color: white;
+}
+
+.darkmode1 .transcript ul li {
+    background-color: rgb(74, 74, 74);
+}
+
+
+.darkmode1 ul li .person1{
+    background-color: rgb(122, 17, 17);
+}
+
+.darkmode1 ul li .person2{
+    background-color:  rgb(19, 72, 115);
+}
+
+.darkmode1 ul li .person3{
+    background-color: rgb(132, 83, 27);
+}
+
+.darkmode1 .tune {
+    background: rgb(233,71,71);
+    background: linear-gradient(133deg, rgb(136, 20, 20) 7%, rgb(120, 70, 12) 21%, rgb(134, 136, 11) 43%, rgb(36, 113, 12) 63%, rgb(12, 70, 117) 82%); 
+}
+
+/* darkmode 2 */
