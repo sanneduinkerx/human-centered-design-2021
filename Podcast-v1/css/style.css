@@ -80,6 +80,10 @@ header  p a{
 /****** TRANSCRIPT ******/
 /***********************/
 
+.hide {
+    display: none;
+}
+
 main{
     margin: 1em;
     font-size: 20px;
@@ -169,6 +173,9 @@ footer p{
 @media (min-width: 750px){
 
     /* LAYOUT */
+    .hide {
+        display: block;
+    }
 
     main {
         display: grid;
@@ -197,6 +204,55 @@ footer p{
     ul li p:first-of-type{
         margin: 0;
     }
+
+    /* verschillende layouts */
+
+    ul li:nth-of-type(5) p:first-of-type, ul li:nth-of-type(6) p:first-of-type , ul li:nth-of-type(7) p:first-of-type {
+        max-height: 35px;
+        border-radius:10px 0px 10px 0px;
+    }
+
+    /* verschillende layouts */
+
+    ul li:nth-of-type(8) p:first-of-type, ul li:nth-of-type(9) p:first-of-type , ul li:nth-of-type(10) p:first-of-type {
+        max-height: 45px;
+        border-radius: 100%;
+        min-width: 35px;
+        text-align: center;
+        margin: 1em;
+        padding: 1em;
+    }
+
+    ul li:nth-of-type(11), ul li:nth-of-type(12), ul li:nth-of-type(13) {
+        display: block;
+    
+    }
+    ul li:nth-of-type(11) p, ul li:nth-of-type(12) p, ul li:nth-of-type(13) p {
+        border-radius:10px 10px 0px 0px;
+    
+    }
+
+
+    ul li:nth-of-type(14) p , ul li:nth-of-type(15) p, ul li:nth-of-type(16) p, ul li:nth-of-type(17) p, ul li:nth-of-type(18) p,  ul li:nth-of-type(19) p, ul li:nth-of-type(20) p {
+        background-color: transparent;
+    }
+
+
+    ul li:nth-of-type(14) .person1 , ul li:nth-of-type(15) .person1, ul li:nth-of-type(16) .person1, ul li:nth-of-type(17) .person1, ul li:nth-of-type(18) .person1,  ul li:nth-of-type(19) .person1, ul li:nth-of-type(20) .person1{
+        color: rgb(197, 78, 78);
+    }
+
+    ul li:nth-of-type(14) .person2 , ul li:nth-of-type(15) .person2, ul li:nth-of-type(16) .person2, ul li:nth-of-type(17) .person2, ul li:nth-of-type(18) .person2,  ul li:nth-of-type(19) .person2, ul li:nth-of-type(20) .person2{
+        color:  rgb(52, 123, 180);
+    }
+
+    ul li:nth-of-type(14) .person3 , ul li:nth-of-type(15) .person3, ul li:nth-of-type(16) .person3, ul li:nth-of-type(17) .person3, ul li:nth-of-type(18) .person3,  ul li:nth-of-type(19) .person3, ul li:nth-of-type(20) .person3{
+        color: rgb(194, 130, 57);
+    }
+
+    ul li:nth-of-type(16) p{
+        font-weight: 700;
+    }
 }
 
 /*******************/
@@ -212,7 +268,6 @@ footer p{
     font-weight: 700;
     text-transform: uppercase;
 }
-
 
 /* Darkmode 1 */
 
@@ -246,6 +301,7 @@ footer p{
 .darkmode1 main a, .darkmode2 main a, .darkmode3 main a{
     color:rgb(60, 142, 209);
 }
+
 
 /* darkmode 2 */
 
