@@ -14,12 +14,14 @@ Binnen dit vak krijg ik een ontwerp opdracht die ik ga maken voor 1 persoon. Een
 ## Proces
 
 Elke week mag ik 1 keer mijn demo en ideeen testen bij Darice en ik krijg tips mee over hoe ik mijn ontwerp kan verbeteren. 
-In de wiki, die je [hier]() kunt, staat per week het proces van testen, itereren en onderzoek. 
+In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design-2021/wiki) kunt, staat per week het proces van testen, itereren en onderzoek. 
 
 ### Verschillende Demo's:
 
 - **Geteste demo's - 7 april:** [Demo's](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
 - **Versie 1 - 8 april:** [Versie 1 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/Podcast-v1/)
+
+<!-- ## Het ontwerp -->
 
 <!-- [Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/) -->
 
