@@ -246,6 +246,11 @@ ul li.tune p{
     /* color:rgb(194, 130, 57); */
 }
 
+.interaction img{
+    max-width: 400px;
+    max-height: 200px;
+}
+
 .interaction ul li strong img{
     display: none;
     transition: .5s ease;
@@ -277,6 +282,7 @@ ul li.tune p{
 
 .interaction ul li span img{
     display: none;
+
 }
 
 .interaction ul li span:hover img{
