@@ -39,6 +39,7 @@ header > p{
     justify-content: space-around;
     position: sticky;
     top: 3.4em;
+    z-index: 100;
 }
 
 .nav a{
@@ -228,14 +229,68 @@ ul li.tune p{
     text-align: center;
 }
 
-.interaction .tune p:before, .interaction .tune p:after{
-    content: "🎶";
-
+.interaction {
+    z-index: 0;
 }
 
-.interaction ul li  i:hover:after{
+.interaction header{
+    z-index:100;
+}
+
+.interaction .tune p:before, .interaction .tune p:after{
+    content: "🎶";
+}
+
+.interaction ul li i:hover:after {
     content: '😂';
     /* color:rgb(194, 130, 57); */
+}
+
+.interaction ul li strong img{
+    display: none;
+    transition: .5s ease;
+}
+
+.interaction ul li strong{
+    position: relative;
+    transition: .5s ease;
+}
+
+
+.interaction ul li strong:hover img{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: black;
+    max-height: 200px;
+    transition: .5s ease;
+    z-index: 50;
+}
+
+.interaction ul li span {
+    position: relative;
+}
+
+.interaction ul li span img{
+    display: none;
+}
+
+.interaction ul li span:hover img{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: black;
+    max-height: 200px;
+    transition: .5s ease;
+    z-index: 50;
 }
 
 /*********************/
