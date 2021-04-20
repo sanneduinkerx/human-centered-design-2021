@@ -1,0 +1,251 @@
+/*************/
+/* ALGEMEEN */
+/***********/
+
+body{
+    /* nog uitzoeken welke beste font is */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0em;
+    /* position: relative; */
+}
+
+
+/*********************/
+/****** HEADER ******/
+/*******************/
+
+header{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+header p{
+    margin: 0;
+}
+
+header > p{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav {
+    /* background-color: rgb(112, 112, 112); */
+    color: white;
+    justify-content: space-around;
+    position: sticky;
+    top: 3.4em;
+}
+
+.nav a{
+    margin: 0em 2em;
+}
+
+div a{
+    color: white
+}
+
+
+.target {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.options {
+    background-color: rgb(60, 82, 208);
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 3.4em;
+}
+
+
+/****************************/
+/****** EDITOR MODE  *******/
+/**************************/
+
+header  p a{
+    color: white;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+.menu {
+    position: absolute;
+    background-color: blueviolet;
+    top: -10em;
+    right: 0em;
+}
+
+.menu.show{
+    top: 2em;
+    right: 0em;
+}
+
+/****************************/
+/****** content *******/
+/**************************/
+
+.solid {
+    border-top: 3px solid #bbb;
+}
+
+.content {
+    background-color:black;
+    padding: 5px 20px;
+    color: white;
+}
+
+.content a{
+    /* color: black; */
+    color: white;
+}
+
+.content p:hover {
+    cursor: pointer;
+}
+
+.content p strong:after{
+    content: ' ➡️';
+}
+
+.content.show p strong:after{
+    content: ' ⬇️'
+}
+
+.content.show ul{
+    display: block;
+}
+
+.content ul {
+    display: none;
+}
+
+.content {
+    position: sticky;
+    top: 3.6em;
+}
+
+.content {
+    border-radius: 10px;
+}
+
+/*************************/
+/****** TRANSCRIPT ******/
+/***********************/
+
+
+main{
+    margin: 1em;
+    font-size: 20px;
+}
+
+.transcript {
+    margin: auto;
+}
+
+
+.transcript ul{
+    padding: 0;
+}
+
+.transcript ul li{
+    list-style: none;
+}
+
+
+main section:nth-of-type(2) li{
+    
+    margin: 1em 0em;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    /* fijnste lezen, qua breedte: 600px */
+    /* note dat dit 750 is, komt door de min width van de naam */
+    max-width: 650px; 
+}
+
+main section:nth-of-type(2) ul li p{
+    font-size: 22px;
+    padding: .8em;
+    margin: .2em 0em 0em 0em;
+    line-height: 33px;
+}
+
+main section:nth-of-type(2) ul li p:first-of-type{
+    font-weight: 700;
+    min-width: 145px;
+    margin: auto 0;
+}
+
+main section:nth-of-type(2) ul li p i{
+    font-weight: bold;
+}
+
+/*************/
+/* SPREKERS */
+/***********/
+
+ul li .person1, ul li .person2, ul li .person3 {
+    border-radius: 10px 10px 0px 0px;
+    padding: .5em;
+}
+
+ul li .person1{
+    background-color: rgb(197, 78, 78);
+}
+
+ul li .person2{
+    background-color:  rgb(52, 123, 180);
+}
+
+ul li .person3{
+    background-color: rgb(194, 130, 57);
+}
+
+/****************/
+/**** TUNE *****/
+/**************/
+
+.tune {
+    background: rgb(233,71,71);
+    background: linear-gradient(133deg, rgba(233,71,71,1) 7%, rgba(227,146,56,1) 21%, rgba(239,242,56,1) 43%, rgba(131,240,99,1) 63%, rgba(51,147,226,1) 82%); 
+}
+
+ul li.tune p{
+    text-align: center;
+}
+
+/*********************/
+/****** FOOTER *******/
+/********************/
+
+footer p{
+    text-align: center;
+}
+
+/**************************/
+/****** RESPONSIVE *******/
+/************************/
+
+@media (min-width: 750px){
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 2em;
+    }
+
+    /* transcript */
+
+    ul li{
+        /* display: flex; */
+        max-width: 750px; 
+    }
+
+}
