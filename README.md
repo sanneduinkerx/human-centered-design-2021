@@ -19,7 +19,8 @@ In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design
 ### Verschillende Demo's:
 
 - **Geteste demo's - 7 april:** [Demo's](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
-- **Versie 1 - 8 april:** [Versie 1 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/Podcast-v1/)
+- **Versie 1 - 14 april:** [Test Demo 1 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/Podcast-v1/)
+- **Versie 2 - 21 april:** [Test Demo 2 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-test2/)
 
 <!-- ## Het ontwerp -->
 
