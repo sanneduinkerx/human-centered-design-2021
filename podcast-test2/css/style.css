@@ -128,11 +128,6 @@ header  p a{
 }
 
 .content {
-    position: sticky;
-    top: 3.6em;
-}
-
-.content {
     border-radius: 10px;
 }
 
@@ -187,6 +182,11 @@ main section:nth-of-type(2) ul li p i{
     font-weight: bold;
 }
 
+.interaction ul li strong:hover{
+    color: rgb(58, 58, 58);
+    /* cursor: pointer; */
+}
+
 /*************/
 /* SPREKERS */
 /***********/
@@ -208,17 +208,34 @@ ul li .person3{
     background-color: rgb(194, 130, 57);
 }
 
+
 /****************/
 /**** TUNE *****/
 /**************/
 
 .tune {
     background: rgb(233,71,71);
-    background: linear-gradient(133deg, rgba(233,71,71,1) 7%, rgba(227,146,56,1) 21%, rgba(239,242,56,1) 43%, rgba(131,240,99,1) 63%, rgba(51,147,226,1) 82%); 
+    background: linear-gradient(133deg, rgba(233,71,71,1) 7%, rgba(227,146,56,1) 21%, rgba(239,242,56,1) 43%, rgba(131,240,99,1) 63%, rgba(51,147,226,1) 82% ); 
+}
+
+.interaction .tune {
+    background: rgb(233,71,71);
+    background-image: linear-gradient(45deg, rgba(233,71,71,1), rgba(227,146,56,1), rgba(239,242,56,1), rgba(131,240,99,1), rgba(51,147,226,1), rgba(233,71,71,1), rgba(227,146,56,1), rgba(239,242,56,1), rgba(131,240,99,1), rgba(51,147,226,1)); 
+    background-size: 200% 200%;
 }
 
 ul li.tune p{
     text-align: center;
+}
+
+.interaction .tune p:before, .interaction .tune p:after{
+    content: "🎶";
+
+}
+
+.interaction ul li  i:hover:after{
+    content: '😂';
+    /* color:rgb(194, 130, 57); */
 }
 
 /*********************/
@@ -248,4 +265,15 @@ footer p{
         max-width: 750px; 
     }
 
+    .content {
+        position: sticky;
+        top: 3.6em;
+    }
+    
+
 }
+
+/**************************/
+/****** ANIMATION *******/
+/************************/
+
