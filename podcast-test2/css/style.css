@@ -354,6 +354,25 @@ ul li.tune p{
     animation: gradient 15s ease infinite;
 }
 
+/*********************/
+/****** toon *******/
+/********************/
+
+.emotie .lacht i{
+    /* margin: auto 0; */
+    margin: auto;
+    text-align: center;
+    display: block;
+    font-weight: 700;   
+}
+
+.emotie .lacht {
+    background: transparent;
+    /* background: linear-gradient(133deg, rgba(227,146,56,1) 14%, rgba(239,242,56,1) 50%, rgba(51,147,226,1) 85%); */
+    /* color: white; */
+    border: 2px black solid;
+
+}
 
 
 /*********************/
