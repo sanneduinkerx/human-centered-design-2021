@@ -16,7 +16,7 @@ Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwe
         - [Features](#features)
         - [Live Link 🔗](#live-link-prototype-)
     - [Onderbouwing 📚](#onderbouwing-) 
-        -[Exclusive design](#exclusive-design-principles)
+        - [Exclusive design](#exclusive-design-principles)
 - [Conclusie 🤓](#conclusie)
 
 
@@ -50,6 +50,9 @@ In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design
 - korte uitleg concept
 
 ### Features
+
+- feature 1
+- feature 2
 
 ### Live link Prototype 🔗
 
