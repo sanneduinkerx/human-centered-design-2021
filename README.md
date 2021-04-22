@@ -13,7 +13,8 @@ Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwe
 - [Het eindontwerp 📱](#het-eindontwerp-)
     - [User Scenario 🙋🏼](#user-scenario-)
     - [Concept ✏️](#het-concept-%EF%B8%8F)
-    - [Live Link 🔗](#live-link-prototype-)
+        - [Features](#features)
+        - [Live Link 🔗](#live-link-prototype-)
     - [Onderbouwing 📚](#onderbouwing-) 
         -[Exclusive design](#exclusive-design-principles)
 - [Conclusie 🤓](#conclusie)
@@ -47,6 +48,8 @@ In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design
 *screenshot hier van de applicatie*
 
 - korte uitleg concept
+
+### Features
 
 ### Live link Prototype 🔗
 
