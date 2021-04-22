@@ -1,0 +1,424 @@
+/*************/
+/* ALGEMEEN */
+/***********/
+
+body{
+    /* nog uitzoeken welke beste font is */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0em;
+    /* position: relative; */
+    z-index: 0;
+}
+
+
+/*********************/
+/****** HEADER ******/
+/*******************/
+
+header{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header p{
+    margin: 0;
+}
+
+header > p{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav {
+    /* background-color: rgb(112, 112, 112); */
+    color: white;
+    justify-content: space-around;
+    position: sticky;
+    top: 3.4em;
+    z-index: 100;
+}
+
+.nav a{
+    margin: 0em 2em;
+}
+
+div a{
+    color: white
+}
+
+
+.target {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.options {
+    background-color: rgb(60, 82, 208);
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 3.4em;
+}
+
+
+/****************************/
+/****** EDITOR MODE  *******/
+/**************************/
+
+header  p a{
+    color: white;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+.menu {
+    position: absolute;
+    background-color: blueviolet;
+    top: -10em;
+    right: 0em;
+}
+
+.menu.show{
+    top: 2em;
+    right: 0em;
+}
+
+/****************************/
+/****** content *******/
+/**************************/
+
+.solid {
+    border-top: 3px solid #bbb;
+}
+
+.content {
+    background-color:black;
+    padding: 5px 20px;
+    color: white;
+}
+
+.content a{
+    /* color: black; */
+    color: white;
+}
+
+.content p:hover {
+    cursor: pointer;
+}
+
+.content p strong:after{
+    content: ' ➡️';
+}
+
+.content.show p strong:after{
+    content: ' ⬇️'
+}
+
+.content.show ul{
+    display: block;
+}
+
+.content ul {
+    display: none;
+}
+
+.content {
+    border-radius: 10px;
+}
+
+/*************************/
+/****** TRANSCRIPT ******/
+/***********************/
+
+
+main{
+    margin: 1em;
+    font-size: 20px;
+}
+
+.transcript {
+    margin: auto;
+}
+
+
+.transcript ul{
+    padding: 0;
+}
+
+.transcript ul li{
+    list-style: none;
+}
+
+
+main section:nth-of-type(2) li{
+    
+    margin: 1em 0em;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    /* fijnste lezen, qua breedte: 600px */
+    /* note dat dit 750 is, komt door de min width van de naam */
+    max-width: 650px; 
+}
+
+main section:nth-of-type(2) ul li p{
+    font-size: 22px;
+    padding: .8em;
+    margin: .2em 0em 0em 0em;
+    line-height: 33px;
+}
+
+main section:nth-of-type(2) ul li p:first-of-type{
+    font-weight: 700;
+    min-width: 145px;
+    margin: auto 0;
+}
+
+main section:nth-of-type(2) ul li p i{
+    font-weight: bold;
+}
+
+.interaction ul li strong:hover{
+    color: rgb(58, 58, 58);
+    /* cursor: pointer; */
+}
+
+/*************/
+/* SPREKERS */
+/***********/
+
+ul li .person1, ul li .person2, ul li .person3 {
+    border-radius: 10px 10px 0px 0px;
+    padding: .5em;
+}
+
+ul li .person1{
+    background-color: rgb(197, 78, 78);
+}
+
+ul li .person2{
+    background-color:  rgb(52, 123, 180);
+}
+
+ul li .person3{
+    background-color: rgb(194, 130, 57);
+}
+
+
+/****************/
+/**** TUNE *****/
+/**************/
+
+.tune {
+    background: rgb(233,71,71);
+    background: linear-gradient(133deg, rgba(233,71,71,1) 7%, rgba(227,146,56,1) 21%, rgba(239,242,56,1) 43%, rgba(131,240,99,1) 63%, rgba(51,147,226,1) 82% ); 
+}
+
+.tune2 {
+    background: rgb(222,140,121);
+background: linear-gradient(133deg, rgba(222,140,121,1) 7%, rgba(212,169,100,1) 21%, rgba(201,205,109,1) 43%, rgba(146,213,104,1) 63%, rgba(101,170,210,1) 82%);
+
+}
+
+ul li.tune p, ul li.tune2 p{
+    text-align: center;
+}
+
+/************************/
+/**** INTERACTION ******/
+/**********************/
+
+/* lachen hover interaction */
+
+body ul li.lacht span:hover:after{
+    content: ' 😄';
+    font-style: normal;
+    /* font-size: 28px; */
+    /* color:rgb(194, 130, 57); */
+}
+
+body ul li.lacht span{
+    border-bottom: dashed 2px black;
+    /* color:rgb(194, 130, 57); */
+}
+
+/* surprise */
+
+.DISCO{
+    background: rgb(233,71,71);
+    background-image: linear-gradient(45deg, rgba(233,71,71,1), rgba(227,146,56,1), rgba(239,242,56,1), rgba(131,240,99,1), rgba(51,147,226,1), rgba(233,71,71,1), rgba(227,146,56,1), rgba(239,242,56,1), rgba(131,240,99,1), rgba(51,147,226,1)); 
+    background-size: 300% 200%;
+    animation: gradient 5s ease infinite;
+}
+
+
+body .tune:hover p:after{
+    content: "(click me for a surprise)";
+    font-size: 18px;
+    font-style: italic;
+    /* transition:  .5s ease; */
+}
+
+body .tune {
+    background: rgb(233,71,71);
+    background-image: linear-gradient(45deg, rgba(233,71,71,1), rgba(227,146,56,1), rgba(239,242,56,1), rgba(131,240,99,1), rgba(51,147,226,1), rgba(233,71,71,1), rgba(227,146,56,1), rgba(239,242,56,1), rgba(131,240,99,1), rgba(51,147,226,1)); 
+    background-size: 300% 200%;
+    /* animation: gradient 15s ease infinite; */
+}
+
+body .tune:hover{
+    /* bron: https://www.sliderrevolution.com/resources/css-animated-background/ */
+    animation: gradient 5s ease infinite;
+}
+
+/*  img hover */
+
+body img{
+    max-width: 400px;
+    max-height: 200px;
+}
+
+body ul li span {
+    position: relative;
+}
+body ul li span img{
+    display: none;
+}
+
+body ul li span:hover img{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: black;
+    max-height: 200px;
+    transition: .5s ease;
+    z-index: 50;
+}
+
+
+/***************/
+
+.interaction ul li strong:hover img{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: black;
+    max-height: 200px;
+    transition: .5s ease;
+    z-index: 50;
+}
+
+
+body ul li strong img{
+    display: none;
+    transition: .5s ease;
+}
+
+body ul li strong{
+    position: relative;
+    transition: .5s ease;
+}
+
+.interaction  .confused, .interaction  .moo {
+    border-bottom: dashed black 2px;
+}
+
+.interaction  .confused:hover:after {
+    content: '🤔';
+}
+
+.interaction  .moo:hover:after {
+    content: '🐮🥬';
+    font-size: 32px;
+}
+
+/*********************/
+/****** toon *******/
+/********************/
+
+.lacht i{
+    /* margin: auto 0; */
+    margin: auto;
+    text-align: center;
+    display: block;
+    font-weight: 700;   
+}
+
+body ul li.lacht {
+    background-color: transparent;
+    /* background: linear-gradient(133deg, rgba(227,146,56,1) 14%, rgba(239,242,56,1) 50%, rgba(51,147,226,1) 85%); */
+    /* color: white; */
+    border: 2px black solid;
+
+}
+
+
+/*********************/
+/****** FOOTER *******/
+/********************/
+
+footer p{
+    text-align: center;
+}
+
+/**************************/
+/****** RESPONSIVE *******/
+/************************/
+
+@media (min-width: 750px){
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 2em;
+    }
+
+    /* transcript */
+
+    ul li{
+        /* display: flex; */
+        max-width: 750px; 
+    }
+
+    .content {
+        position: sticky;
+        top: 3.6em;
+    }
+    
+
+}
+
+/**************************/
+/****** ANIMATION *******/
+/************************/
+
+  /* bron: https://www.sliderrevolution.com/resources/css-animated-background/ */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
