@@ -307,9 +307,9 @@ body ul li span:hover img{
 }
 
 
-/***************/
+/****** PRODUCT *******/
 
-.interaction ul li strong:hover img{
+body ul li strong:hover img{
     display: block;
     position: absolute;
     top: 30px;
@@ -334,7 +334,10 @@ body ul li strong{
     transition: .5s ease;
 }
 
-.interaction  .confused, .interaction  .moo {
+/* grapje */
+
+
+body  .confused, body  .moo {
     border-bottom: dashed black 2px;
 }
 
@@ -342,7 +345,7 @@ body ul li strong{
     content: '🤔';
 }
 
-.interaction  .moo:hover:after {
+body  .moo:hover:after {
     content: '🐮🥬';
     font-size: 32px;
 }
