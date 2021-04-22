@@ -16,11 +16,31 @@ Binnen dit vak krijg ik een ontwerp opdracht die ik ga maken voor 1 persoon. Een
 Elke week mag ik 1 keer mijn demo en ideeen testen bij Darice en ik krijg tips mee over hoe ik mijn ontwerp kan verbeteren. 
 In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design-2021/wiki) kunt, staat per week het proces van testen, itereren en onderzoek. 
 
-### Verschillende Demo's:
+### Verschillende geteste demo's:
 
-- **Geteste demo's - 7 april:** [Demo's](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
-- **Versie 1 - 14 april:** [Test Demo 1 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/Podcast-v1/index.html)
-- **Versie 2 - 21 april:** [Test Demo 2 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-test2/index.html)
+- **Geteste demo's - 7 april:** [Kennismakingstest](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
+- **Versie 1 - 14 april:** [Test Demo 2 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/Podcast-v1/index.html)
+- **Versie 2 - 21 april:** [Test Demo 3 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-test2/index.html)
+
+## Het eindontwerp 📱
+
+### User scenario 🙋🏼
+...
+
+### Het concept ✏️
+
+*screenshot hier van de applicatie*
+...
+
+#### Live link Prototype 🔗
+...
+
+### Onderbouwing 📋
+...
+
+### Conclusie + Reflectie
+...
+
 
 <!-- ## Het ontwerp -->
 
