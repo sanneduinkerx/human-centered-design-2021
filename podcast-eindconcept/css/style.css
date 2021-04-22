@@ -185,10 +185,6 @@ main section:nth-of-type(2) ul li p i{
     font-weight: bold;
 }
 
-.interaction ul li strong:hover{
-    color: rgb(58, 58, 58);
-    /* cursor: pointer; */
-}
 
 /*************/
 /* SPREKERS */
@@ -334,6 +330,11 @@ body ul li strong{
     transition: .5s ease;
 }
 
+body ul li strong:hover{
+    color: rgb(58, 58, 58);
+    /* cursor: pointer; */
+}
+
 /* grapje */
 
 
@@ -341,7 +342,7 @@ body  .confused, body  .moo {
     border-bottom: dashed black 2px;
 }
 
-.interaction  .confused:hover:after {
+body  .confused:hover:after {
     content: '🤔';
 }
 
