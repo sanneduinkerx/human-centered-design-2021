@@ -50,7 +50,7 @@ In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design
 
 ### Live link Prototype 🔗
 
-*live link komt binnenkort*
+Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-eindconcept/index.html) het prototype met toegepaste bevindingen die uit de test zijn gehaald.
 
 ## Onderbouwing 📋
 
