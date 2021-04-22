@@ -5,42 +5,77 @@ Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijk
 
 Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. Een Frontend Designer en Developer heeft verstand van techniek, UX en design. Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
 
-## Opdracht
+## Table of contents
+- [De opdracht](#opdracht)
+    - [Ontwerpen met en voor echte mensen](#ontwerpen-met-en-voor-echte-mensen)
+- [Proces 📚](#proces)
+    - [Geteste Demo's 💻](#verschillende-geteste-demos)
+- [Het eindontwerp 📱](#het-eindontwerp-)
+    - [User Scenario 🙋🏼](#user-scenario-)
+    - [Concept ✏️](#het-concept-%EF%B8%8F)
+    - [Live Link 🔗](#live-link-prototype-)
+    - [Onderbouwing 📚](#onderbouwing-) 
+        -[Exclusive design](#exclusive-design-principles)
+- [Conclusie 🤓](#conclusie)
 
-### Ontwerpen met en voor echte mensen
+
+# Opdracht
+
+## Ontwerpen met en voor echte mensen
 
 Binnen dit vak krijg ik een ontwerp opdracht die ik ga maken voor 1 persoon. Een echt persoon waarmee ik 3 keer mijn ontwerp mag testen. Door steeds te itereren verbeter ik mijn ontwerp. Ik mag voor Darice de Cuba een ontwerp maken en ik heb gekozen voor het onderwerp Podcast. Darice is op latere leeftijd doof geworden, en kan zich dus nog wel geluid herinneren. Ze kan geen podcasts luisteren maar ze leest vaak de transcript. Voor mij als opdracht om een ontwerp te maken van een transcript van podcasts. Zodat Darice makkelijk en rustig het transcript kan lezen van een podcast.
 
-## Proces
+# Proces
 
 Elke week mag ik 1 keer mijn demo en ideeen testen bij Darice en ik krijg tips mee over hoe ik mijn ontwerp kan verbeteren. 
-In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design-2021/wiki) kunt, staat per week het proces van testen, itereren en onderzoek. 
+In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design-2021/wiki) kunt, staat per week het proces van het testen en alle bevindingen. 
 
-### Verschillende geteste demo's:
+## Verschillende geteste demo's:
 
 - **Geteste demo's - 7 april:** [Kennismakingstest](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
 - **Versie 1 - 14 april:** [Test Demo 2 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/Podcast-v1/index.html)
 - **Versie 2 - 21 april:** [Test Demo 3 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-test2/index.html)
 
-## Het eindontwerp 📱
+# Het eindontwerp 📱
 
-### User scenario 🙋🏼
-...
+## User scenario 🙋🏼
 
-### Het concept ✏️
+- beschrijf user scenario 'Darice wilt graag...' 
+
+## Het concept ✏️
 
 *screenshot hier van de applicatie*
-...
 
-#### Live link Prototype 🔗
-...
+- korte uitleg concept
 
-### Onderbouwing 📋
-...
+### Live link Prototype 🔗
 
-### Conclusie + Reflectie
-...
+*live link komt binnenkort*
 
+## Onderbouwing 📋
+
+- onderbouwing waarom je deze keuzes hebt gemaakt
+- dus belangrijkste bevindingen en die zie je terug in ontwerp
+
+### Exclusive Design principles 
+
+- leg de principes uit
+- en hoe je dit hebt toegepast
+
+## Conclusie
+
+- een conclusie schrijft waar je in gaat op de leerdoelen en criteria en hoe je dit hebt gehaald. Dit is je bewijsvoering voor het vak.
+- wat ik zelf vond van het vak, wat ik interessant vond en heb geleerd. Leuke dingen die ik ben tegengekomen. 
+
+***
+
+## Criteria vak
+
+- [X] Maak verschillende ontwerpen, versies en varianten van je opdracht. Experimenteer met verschillende vormen van interactie en vormgeving. Wat werkt goed? Wat werkt niet goed?
+- [ ] Beschrijf je mens met een User Scenario.
+- [X] Test je ideeen en ontwerp 3 keer met jouw mens. Verbeter je ontwerp op basis van de feedback die je hebt gekregen uit de tests. Documenteer de testen goed.
+- [ ] Leg de exclusive design principles uit en beschrijf hoe je die hebt toegepast.
+- [ ] Zorg dat je voor de beoordeling in je Readme (of wiki) een conclusie schrijft waar je in gaat op de leerdoelen en criteria en hoe je dit hebt gehaald. Dit is je bewijsvoering voor het vak.
 
 <!-- ## Het ontwerp -->
 
