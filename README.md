@@ -80,7 +80,7 @@ In de 3 weken van dit vak heb ik 3 keer getest met Darice om de beste oplossing 
 
 - Laat de **link** meteen zien naar de besproken website in de tekst + preview bij mouse over (hover), beetje interactie.
 
-    <img width="500" alt="interactieve link" src="https://user-images.githubusercontent.com/60745348/115718929-e6000d00-a37b-11eb-83af-9ad6a764d9a1.png)">
+    <img width="500" alt="interactieve link" src="https://user-images.githubusercontent.com/60745348/115718929-e6000d00-a37b-11eb-83af-9ad6a764d9a1.png">
 
 ## Het eindontwerp 💻
 
