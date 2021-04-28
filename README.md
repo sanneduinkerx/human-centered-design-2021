@@ -3,8 +3,6 @@ Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijk
 
 > What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. Een Frontend Designer en Developer heeft verstand van techniek, UX en design. Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
-
 ## Table of contents
 - [De opdracht](#opdracht)
     - [Ontwerpen met en voor echte mensen](#ontwerpen-met-en-voor-echte-mensen)
@@ -19,31 +17,33 @@ Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwe
         - [Exclusive design](#exclusive-design-principles)
 - [Conclusie 🤓](#conclusie)
 
-
 # Opdracht
 
 ## Ontwerpen met en voor echte mensen
 
-Binnen dit vak krijg ik een ontwerp opdracht die ik ga maken voor 1 persoon. Een echt persoon waarmee ik 3 keer mijn ontwerp mag testen. Door steeds te itereren verbeter ik mijn ontwerp. Ik mag voor Darice de Cuba een ontwerp maken en ik heb gekozen voor het onderwerp Podcast. Darice is op latere leeftijd doof geworden, en kan zich dus nog wel geluid herinneren. Ze kan geen podcasts luisteren maar ze leest vaak de transcript. Voor mij als opdracht om een ontwerp te maken van een transcript van podcasts. Zodat Darice makkelijk en rustig het transcript kan lezen van een podcast.
+Binnen deze course heb ik door middel van een case een ontwerp gemaakt voor 1 persoon. De testpersoon waarmee ik mocht testen was Darice. Darice is op latere leeftijd doof geworden en weet dus nog wel hoe geluid was. Binnen onze groep van 9 andere studenten konden we kiezen tussen 2 cases, podcast of closed captions. Ik heb zelf gekozen voor de podcast. De opdracht was: *In een transcriptie gaat natuurlijk nogal wat nuance verloren. Maak een oplossing die minimaal net zo prettig is voor iemand die niet kan luisteren als voor iemand die wel kan luisteren. Bonus als je er interactie aan toe weet te voegen.*. Daarnaast is de bedoeling om de exclusive design principles, **Study Situation**, **Ignore Conventions**, **Prioritise Identity** en **Add Nonsense** te verwerken en testen in de demo's.
+
+## Wie is Darice
+
+Darice is 39 jaar en is een frontend developer gefocust op toegankelijkheid en inclusiviteit. Ze is veel met toegankelijkheid bezig en dat deed ze ook bij onze prototypes vaak om snel even te testen of iets toegankelijk was. Darice is op latere leeftijd doof geworden maar weet nog wel hoe geluid was. Als voorbeeld, Darice houdt namelijk van de TV show Friends en toen dat op tv was kon ze dat nog horen. Tijdens het testen had een van de medestudenten de show friends gebruikt om mee te ontwerpen en Darice wist precies hoe de karakters klonken binnen de show. Tijdens de verschillende tests was er een typetolk aanwezig omdat Darice geen gebarentaal kan, Darice kan wel de nederlandse spreektaal maar leest dan onze reacties via de typetolk. Darice leest vaak transcripts van Damn, Honey dat gaat over feminisme en politiek, of ze leest weleens een podcast transcript van Vasilis over design.
+
+# User scenario 🙋🏼
+
+Darice leest vaak transcript van een podcasts op haar telefoon (Oppo Reno android) of laptop (Macbook pro, firefox) in haar vrije tijd. Nu zijn de transcripts vaak lappen tekst met weinig hiërarchie of overzicht. Daarnaast komt de emotie weinig of niet over. Voor Darice is een transcript niet overzichtelijk om prettig te kunnen lezen of scannen. Het is niet altijd duidelijk wie er praat en als ze het hebben over een boek of website staat de link daarover helemaal onderaan de pagina. En soms zijn ook de transcripts bewerkt en sluit niet volledig aan op de gesproken podcast. Er gaat heel veel verloren wanneer er een transcript wordt gemaakt van een podcast. Waaronder de toon/emotie en de ervaring van een podcast.
+
+
+Darice wilt graag een verbeterde overzichtelijke versie van de transcripts die er nu zijn, waarbij Darice overzichtelijk door het transcript heen kan lezen met de menselijke fouten die ieder mens ook maakt tijdens gesprekken. Waarbij ook de emoties of toon van een persoon binnen de podcast overkomt. En meteen beschikt over de link van de website waar over gepraat wordt binnen de podcast.
 
 # Proces
-
-Elke week mag ik 1 keer mijn demo en ideeen testen bij Darice en ik krijg tips mee over hoe ik mijn ontwerp kan verbeteren. 
-In de wiki, die je [hier](https://github.com/sanneduinkerx/human-centered-design-2021/wiki) kunt, staat per week het proces van het testen en alle bevindingen. 
-
-## Verschillende geteste demo's:
+In de 3 weken van dit vak heb ik 3 keer getest met Darice om de beste oplossing *tailor made* voor Darice te maken. Alle testen met uitslagen zijn [hier](https://github.com/sanneduinkerx/human-centered-design-2021/wiki) te vinden. En de 3 geteste prototypes kun je hieronder bekijken:
 
 - **Geteste demo's - 7 april:** [Kennismakingstest](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
 - **Versie 1 - 14 april:** [Test Demo 2 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/Podcast-v1/index.html)
 - **Versie 2 - 21 april:** [Test Demo 3 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-test2/index.html)
 
-# Het eindontwerp 📱
+## Belangrijkste bevindingen
 
-## User scenario 🙋🏼
-
-- beschrijf user scenario 'Darice wilt graag...' 
-
-## Het concept ✏️
+# Het eindontwerp ✏️
 
 *screenshot hier van de applicatie*
 
@@ -60,8 +60,8 @@ Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast
 
 ## Onderbouwing 📋
 
-- onderbouwing waarom je deze keuzes hebt gemaakt
-- dus belangrijkste bevindingen en die zie je terug in ontwerp
+- Onderbouwing waarom je deze keuzes hebt gemaakt
+- Belangrijkste bevindingen die je terug ziet in ontwerp. Noem deze belangrijkste bevindingen ook. (zijn er 4, zie notion)
 
 ### Exclusive Design principles 
 
@@ -72,6 +72,9 @@ Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast
 
 - een conclusie schrijft waar je in gaat op de leerdoelen en criteria en hoe je dit hebt gehaald. Dit is je bewijsvoering voor het vak.
 - wat ik zelf vond van het vak, wat ik interessant vond en heb geleerd. Leuke dingen die ik ben tegengekomen. 
+
+## Do's & Dont's testen
+
 
 ***
 

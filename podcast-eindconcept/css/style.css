@@ -227,20 +227,37 @@ ul li.tune p, ul li.tune2 p{
     text-align: center;
 }
 
+/*** lacht ***/
+
+body ul li.lacht .person1Lacht{
+    color:rgb(197, 78, 78);
+    /* border-bottom: rgb(197, 78, 78) solid 3px; */
+}
+
+body ul li.lacht .person2Lacht{
+    color: rgb(52, 123, 180);
+    /* border-bottom:rgb(52, 123, 180) solid 3px; */
+}
+
+body ul li.lacht .person3Lacht{
+    color: rgb(194, 130, 57);
+    /* border-bottom:rgb(194, 130, 57) solid 3px; */
+}
+
 /************************/
 /**** INTERACTION ******/
 /**********************/
 
 /* lachen hover interaction */
 
-body ul li.lacht span:hover:after{
+body ul li.lacht span:last-of-type:hover:after{
     content: ' 😄';
     font-style: normal;
     /* font-size: 28px; */
     /* color:rgb(194, 130, 57); */
 }
 
-body ul li.lacht span{
+body ul li.lacht span:last-of-type{
     border-bottom: dashed 2px black;
     /* color:rgb(194, 130, 57); */
 }
