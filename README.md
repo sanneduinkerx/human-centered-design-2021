@@ -37,10 +37,15 @@ Darice wilt graag een verbeterde overzichtelijke versie van de transcripts die e
 In de 3 weken van dit vak heb ik 3 keer getest met Darice om de beste oplossing *tailor made* voor Darice te maken. Alle testen met uitslagen zijn [hier](https://github.com/sanneduinkerx/human-centered-design-2021/wiki) te vinden. En de 3 geteste prototypes kun je hieronder bekijken:
 
 ### Geteste demo's - 7 april: [Kennismakingstest](https://nathanneelis.github.io/human-centered-design-2021/sprekers/index.html) 
+
     ![](https://user-images.githubusercontent.com/60745348/113883083-21b4a780-97be-11eb-8a53-07bf3a5f8eb8.png)
+
 ### Versie 1 - 14 april: [Test Demo 2 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/Podcast-v1/index.html)
+
     ![](https://user-images.githubusercontent.com/60745348/114852969-98b3f680-9de3-11eb-9e92-150e9161a5fb.png)
+
 ### Versie 2 - 21 april: [Test Demo 3 Podcast](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-test2/index.html)
+
     ![](https://user-images.githubusercontent.com/60745348/115706495-01641b80-a36e-11eb-940d-27854eec2aa2.png)
 
 ### Belangrijkste bevindingen 
