@@ -4,18 +4,25 @@ Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijk
 > What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
 
 ## Table of contents
-- [De opdracht](#opdracht)
-    - [Ontwerpen met en voor echte mensen](#ontwerpen-met-en-voor-echte-mensen)
-- [Proces 📚](#proces)
-    - [Geteste Demo's 💻](#verschillende-geteste-demos)
-- [Het eindontwerp 📱](#het-eindontwerp-)
-    - [User Scenario 🙋🏼](#user-scenario-)
-    - [Concept ✏️](#het-concept-%EF%B8%8F)
-        - [Features](#features)
-        - [Live Link 🔗](#live-link-prototype-)
-    - [Onderbouwing 📚](#onderbouwing-) 
-        - [Exclusive design](#exclusive-design-principles)
-- [Conclusie 🤓](#conclusie)
+- [De opdracht 📚](#opdracht-)
+    - [Ontwerpen met en voor echte mensen 👥](#ontwerpen-met-en-voor-echte-mensen-)
+    - [Wie is Darice? 🧑🏻‍🦰](#wie-is-darice-)
+- [User Scenario 🤓](#user-scenario-)
+- [Proces 🎬](#proces-)
+    - [Week 1 - geteste demo 1️⃣](#geteste-demo---7-april-kennismakingstest)
+    - [Week 2 - Prototype 2 2️⃣](#versie-2---14-april-test-demo-2-podcast)
+    - [Week 3 - geteste demo 3️⃣](#versie-3---21-april-test-demo-3-podcast)
+    - [Belangrijkste bevindingen 🔍](#belangrijkste-bevindingen)
+- [Het eindontwerp 💻](#het-eindontwerp-)   
+    - [Live Link 🔗](#live-link-prototype-)
+    - [Features ⚙️](#features-%EF%B8%8F)
+- [Exclusive design 💬](#exclusive-design-principles-)
+    - [Study Situation 🔍](#study-situation-)
+    - [Ignore Conventions ⛔️](#ignore-conventions-%EF%B8%8F)
+    - [Prioritise Identity 🧑🏻‍🦰](#prioritise-identity-)
+    - [Add Nonsense 🤪](#add-nonsense-)
+- [Conclusie 🤓](#conclusie-)
+    -[Do's ✅ & Dont's ⛔️ testen](#dos---donts-%EF%B8%8F-testen)
 
 ## Opdracht 📚
 
@@ -123,10 +130,8 @@ Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast
 - een conclusie schrijft waar je in gaat op de leerdoelen en criteria en hoe je dit hebt gehaald. Dit is je bewijsvoering voor het vak.
 - wat ik zelf vond van het vak, wat ik interessant vond en heb geleerd. Leuke dingen die ik ben tegengekomen. 
 
-## Do's ✅ & Dont's ⛔️ testen 
-
-
-***
+### Do's ✅ & Dont's ⛔️ testen 
+...
 
 <!-- ## Criteria vak -->
 
