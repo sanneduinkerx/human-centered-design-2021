@@ -22,7 +22,7 @@ Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijk
     - [Prioritise Identity 🧑🏻‍🦰](#prioritise-identity-)
     - [Add Nonsense 🤪](#add-nonsense-)
 - [Conclusie 🤓](#conclusie-)
-    -[Do's ✅ & Dont's ⛔️ testen](#dos---donts-%EF%B8%8F-testen)
+    - [Do's ✅ & Dont's ⛔️ testen](#dos---donts-%EF%B8%8F-testen)
 
 ## Opdracht 📚
 
