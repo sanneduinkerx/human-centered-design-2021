@@ -51,28 +51,20 @@ In de 3 weken van dit vak heb ik 3 keer getest met Darice om de beste oplossing 
 ### Belangrijkste bevindingen 
 
 - **Add nonsense** toepassen is lastig voor iemand zoals Darice omdat haar smaak vooral de ux principles zijn. En als iets dan overbodig is of geen toegevoegd waarde zou het niet hoeven. Maar je merkte wel dat Darice enthousiast werd van het zoeken naar de verborgen nonsense. *Het hoeft niet perse een toegevoegde waarde te hebben om de ervaring leuker te maken.*
-    ![](https://user-images.githubusercontent.com/60745348/116423115-adab7380-a840-11eb-85bd-9dbead0627b7.png)
-    ![](https://user-images.githubusercontent.com/60745348/116423117-af753700-a840-11eb-9c58-d616efd5f2dc.png)
-
-
+    <img width="500" alt="surprise" src="https://user-images.githubusercontent.com/60745348/116423115-adab7380-a840-11eb-85bd-9dbead0627b7.png">
+    <img width="500" alt="nonsense" src="https://user-images.githubusercontent.com/60745348/116423117-af753700-a840-11eb-9c58-d616efd5f2dc.png">
 - **Emotie** of toon met kleuren **associëren** is lastig. Je zou dan kleuren moeten gaan leren en waar ze voor staan. Darice gaf aan dat kleur haar niet veel zegt als het gaat om emotie of toon.
 - Het **zelf beluisteren** van de podcast en op die manier emotie overbrengen is het meeste een op een, zo breng je voor Darice het beste toon en emotie over. En zo weet Darice ook echt dat het klopt.
 - Emotie en toon is **per context anders** en heeft geen vaste regel of iets per zin of woord aangeven moet worden.
 - Darice houdt ervan **zelf** dingen **aan te passen**, personaliseren bij het lezen van een transcript. Zoals dark mode of de font-size en lettertype.
-    ![](https://user-images.githubusercontent.com/60745348/116423324-e0556c00-a840-11eb-9c59-0623ea766941.png)
-
-
+     <img width="500" alt="aanpassen font" src="https://user-images.githubusercontent.com/60745348/116423324-e0556c00-a840-11eb-9c59-0623ea766941.png">
 - Per **persoon** een andere **kleur** en in **blokken** voor beter overzicht. 
-    ![](https://user-images.githubusercontent.com/60745348/116423409-f2370f00-a840-11eb-81e7-7a8f3a12e3c1.png)
-
-
+    <img width="500" alt="nonsense" src="https://user-images.githubusercontent.com/60745348/116423409-f2370f00-a840-11eb-81e7-7a8f3a12e3c1.png">
 - Als er muziek draait of als iemand lacht, **acties**, los van de dialogen.
-    ![](https://user-images.githubusercontent.com/60745348/116423501-07ac3900-a841-11eb-9df7-065fd7674f0a.png)
-    ![](https://user-images.githubusercontent.com/60745348/116423659-2dd1d900-a841-11eb-9c6b-b3c4f49aa4b3.png)
-
-
+    <img width="500" alt="intro tune" src="https://user-images.githubusercontent.com/60745348/116423501-07ac3900-a841-11eb-9df7-065fd7674f0a.png">
+    <img width="500" alt="lachen" src="https://user-images.githubusercontent.com/60745348/116423659-2dd1d900-a841-11eb-9c6b-b3c4f49aa4b3.png">
 - Laat de **link** meteen zien naar de besproken website in de tekst + preview bij mouse over (hover), beetje interactie.
-    ![](https://user-images.githubusercontent.com/60745348/115718929-e6000d00-a37b-11eb-83af-9ad6a764d9a1.png)
+    <img width="500" alt="interactieve link" src="https://user-images.githubusercontent.com/60745348/115718929-e6000d00-a37b-11eb-83af-9ad6a764d9a1.png)">
 
 ## Het eindontwerp 💻
 
