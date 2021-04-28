@@ -127,11 +127,30 @@ Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast
 
 ## Conclusie 📝
 
-- een conclusie schrijft waar je in gaat op de leerdoelen en criteria en hoe je dit hebt gehaald. Dit is je bewijsvoering voor het vak.
-- wat ik zelf vond van het vak, wat ik interessant vond en heb geleerd. Leuke dingen die ik ben tegengekomen. 
+Binnen dit vak heb ik geleerd om voor 1 persoon een ontwerp te maken, dat echt bij die persoon past. Ik vond dit zelf een interessante en leuke ervaring. Ik heb nooit eerder zo'n mogelijkheid gehad om te testen op toegankelijkheid met Darice. Door de verschillende testen heb ik in kaart kunnen brengen wat de user needs en wants zijn van Darice en wat zij zelf het prettigste vind. Omdat ik meerdere keren heb getest heb ik goed kunnen leren hoe je kunt testen. Het was leuk om te zien hoe Darice zo enthousiast werd van de verschillende prototypes en hiermee haar ervaring verbeterd met het lezen van een podcast transcript. 
+
+...
+
+- ux principles bij darice
+- add nonsense soms lastig maar wel leuk om toe te passen
+- sommige aannames klopte niet
+- en sommige designs werkte juist heel goed 
+- onverwachte dingen
 
 ### Do's ✅ & Dont's ⛔️ testen 
-...
+
+#### Do's:
+- Schrijf de test uit bij je prototype, zodat Darice in alle rusti het kan lezen en op terug komen tijdens het testen.
+- Het ligt voor de hand maar laat elkaar uitpraten, ook zeker omdat Darice een typetolk heeft en daarop wacht om dan het antwoord te lezen.
+- Kijk van te voren welke aannames en ideeën je wilt testen en schrijf dit uit.
+- Maak voor elke test verschillende versies en variaties zodat je het meeste uit de tests kunt halen.
+
+#### Don'ts:
+- Te veel sturen of directie, zo kan je testpersoon niet zelf dingen ontdekken of ergens tegen aanlopen.
+- Met te veel tegelijk praten.
+- Test niet je uiteindelijke concept, maar test je ideeën of dingen waarvan je denkt dat het misschien toch niet zou werken, bedoeling is iets uit te proberen.
+- Ga niet altijd uit van de vaste regels of aannames, soms zijn ze onjuist.
+
 
 <!-- ## Criteria vak -->
 
