@@ -588,6 +588,17 @@ body ul li.lacht {
 /****** ACTIES *******/
 /********************/
 
+main section:nth-of-type(2) ul li p i.actie{
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+    font-weight: 200;
+}
+
+.darkModeActivated main .transcript ul li p i.actie{
+    background-color: rgb(28, 28, 28);
+    /* color: black; */
+    font-weight: 200;
+}
 
 
 /*********************/
@@ -634,6 +645,11 @@ footer p{
     .darkModeActivated .transcript ul li {
         border: white solid 1px;
         background-color: rgb(21, 21, 21);
+    }
+
+    .darkModeActivated main .transcript ul li p i.actie{
+        background-color: rgb(37, 37, 37);
+        /* color: black; */
     }
     
 }

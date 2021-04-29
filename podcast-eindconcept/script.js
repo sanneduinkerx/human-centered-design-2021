@@ -54,3 +54,19 @@ if(tune){
         }, 2000);
     })
 }
+
+
+// darkmode
+
+const today = new Date();
+const hourNow = today.getHours();
+
+console.log(hourNow);
+
+if (hourNow >= 21) {
+    body.classList.add('darkModeActivated')
+} else if(hourNow >= 8) {
+    body.classList.remove('darkModeActivated')
+} else if(hourNow >= 1) {
+    body.classList.add('darkModeActivated')
+}
