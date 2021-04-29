@@ -84,7 +84,7 @@ In de 3 weken van dit vak heb ik 3 keer getest met Darice om de beste oplossing 
 
 ## Het eindontwerp 💻
 
-![](https://user-images.githubusercontent.com/60745348/116413638-1cd09a00-a838-11eb-993b-d24368271c9d.png)
+![](https://user-images.githubusercontent.com/60745348/116613066-8afc8600-a938-11eb-8561-304515b72437.png) 
 
 De oplossing op het probleem beschreven in de user scenario, is een verbeterde versie van een transcript. Die overzichtelijk is waar Darice makkelijk doorheen kan navigeren. En snel kan zien wie wanneer praat of er muziek draait op de achtergrond en of er iemand lacht bijvoorbeeld. Daarnaast producten die worden besproken en websites kan Darice direct bekijken zodat dit Darice minder tijd kost om dit op te zoeken. Ook kan Darice zelf de weergave aanpassen van het transcript met de font-size of overzetten naar dark mode. Door woorden schijngedrukt te maken leg ik nadruk op de woorden om de toon zo goed mogelijk over te brengen. Daarnaast heb ik geprobeerd wat nonsense toe te passen met interactie.
 

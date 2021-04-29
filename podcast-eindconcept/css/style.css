@@ -518,17 +518,15 @@ body ul li strong{
 
 body ul li strong:hover{
     color: rgb(58, 58, 58);
-    /* cursor: pointer; */
 }
 
 /* grapje */
 
-
-body  .confused, body  .moo, body .genant , body .confound, body .disgusted, body .rollsEyes, body .annoyed{
+body  .confused, body  .moo, body .genant , body .confound, body .disgusted, body .rollsEyes, body .annoyed, body .konijn{
     border-bottom: dashed black 2px;
 }
 
-.darkModeActivated  .confused, .darkModeActivated  .moo, .darkModeActivated .genant, .darkModeActivated .confound, .darkModeActivated .disgusted, .darkModeActivated .rollsEyes, .darkModeActivated .annoyed {
+.darkModeActivated  .confused, .darkModeActivated  .moo, .darkModeActivated .genant, .darkModeActivated .confound, .darkModeActivated .disgusted, .darkModeActivated .rollsEyes, .darkModeActivated .annoyed,  .darkModeActivated .konijn {
     border-bottom: dashed white 2px;
 }
 
@@ -559,6 +557,10 @@ body .rollsEyes:hover:after {
 
 body .annoyed:hover:after {
     content: ' 😒'
+}
+
+body .konijn:hover:after{
+    content: ' 🐰'
 }
 
 /*********************/
