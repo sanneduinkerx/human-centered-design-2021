@@ -524,21 +524,41 @@ body ul li strong:hover{
 /* grapje */
 
 
-body  .confused, body  .moo {
+body  .confused, body  .moo, body .genant , body .confound, body .disgusted, body .rollsEyes, body .annoyed{
     border-bottom: dashed black 2px;
 }
 
-.darkModeActivated  .confused, .darkModeActivated  .moo {
+.darkModeActivated  .confused, .darkModeActivated  .moo, .darkModeActivated .genant, .darkModeActivated .confound, .darkModeActivated .disgusted, .darkModeActivated .rollsEyes, .darkModeActivated .annoyed {
     border-bottom: dashed white 2px;
 }
 
 body  .confused:hover:after {
-    content: '🤔';
+    content: ' 🤔';
 }
 
 body  .moo:hover:after {
-    content: '🐮🥬';
+    content: ' 🐮🥬';
     font-size: 32px;
+}
+
+body .genant:hover:after {
+    content: ' 😬'
+}
+
+body .confound:hover:after {
+    content: ' 🥴'
+}
+
+body .disgusted:hover:after {
+    content: ' 🤢'
+}
+
+body .rollsEyes:hover:after {
+    content: ' 😒'
+}
+
+body .annoyed:hover:after {
+    content: ' 😒'
 }
 
 /*********************/
@@ -562,6 +582,11 @@ body ul li.lacht {
     background-color: transparent;
     border: 2px rgb(93, 93, 93) solid;
 }
+
+
+/*********************/
+/****** ACTIES *******/
+/********************/
 
 
 
