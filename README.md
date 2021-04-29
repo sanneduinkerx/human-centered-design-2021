@@ -13,9 +13,9 @@ Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijk
     - [Week 2 - Prototype 2 2️⃣](#versie-2---14-april-test-demo-2-podcast)
     - [Week 3 - geteste demo 3️⃣](#versie-3---21-april-test-demo-3-podcast)
     - [Belangrijkste bevindingen 🔍](#belangrijkste-bevindingen)
-- [Het eindontwerp 💻](#het-eindontwerp-)   
-    - [Live Link 🔗](#live-link-prototype-)
+- [Het eindontwerp 💻](#het-eindontwerp-) 
     - [Features ⚙️](#features-%EF%B8%8F)
+    - [Live Link 🔗](#live-link-prototype-)
 - [Exclusive design 💬](#exclusive-design-principles-)
     - [Study Situation 🔍](#study-situation-)
     - [Ignore Conventions ⛔️](#ignore-conventions-%EF%B8%8F)
@@ -86,13 +86,7 @@ In de 3 weken van dit vak heb ik 3 keer getest met Darice om de beste oplossing 
 
 ![](https://user-images.githubusercontent.com/60745348/116413638-1cd09a00-a838-11eb-993b-d24368271c9d.png)
 
-Het eindproduct is een digitale interactieve transcript pagina waarbij is nagedacht over de visuele hiërarchie en het beste overbrengen van de Podcast ervaring. Darice kan gemakkelijk door het transcript navigeren met de lijst met alle inhoud binnen de podcast. De links van boeken of gerechten etc, die besproken worden staan direct in de tekst zelf. Met toegevoegde interactie, om een preview met een mouse over te bekijken van het gerecht of een boek of website. 
-
-*hier kort onderbouwing welke bevindingen je terug vind.*
-
-### Live link Prototype 🔗
-
-Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-eindconcept/index.html) het prototype met toegepaste bevindingen die uit de test zijn gehaald.
+De oplossing op het probleem beschreven in de user scenario, is een verbeterde versie van een transcript. Die overzichtelijk is waar Darice makkelijk doorheen kan navigeren. En snel kan zien wie wanneer praat of er muziek draait op de achtergrond en of er iemand lacht bijvoorbeeld. Daarnaast producten die worden besproken en websites kan Darice direct bekijken zodat dit Darice minder tijd kost om dit op te zoeken. Ook kan Darice zelf de weergave aanpassen van het transcript met de font-size of overzetten naar dark mode. Door woorden schijngedrukt te maken leg ik nadruk op de woorden om de toon zo goed mogelijk over te brengen. Daarnaast heb ik geprobeerd wat nonsense toe te passen met interactie.
 
 ### Features ⚙️
 
@@ -107,6 +101,11 @@ Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast
     - Intro tune of andere acties zoals lachen apart van de praatblokken
 - Nadruk op bepaalde woorden, overbrengen van toon 
 - Soms grapjes/nonsense tussendoor (probeer ze ertussen te zoeken 😉)
+
+### Live link Prototype 🔗
+
+Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast-eindconcept/index.html) het prototype met toegepaste bevindingen die uit de test zijn gehaald.
+
 
 ## Exclusive Design principles 💬
 
