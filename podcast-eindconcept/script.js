@@ -51,7 +51,7 @@ if(tune){
 
         setTimeout(function(){ 
             body.classList.remove('DISCO');
-        }, 2000);
+        }, 3000);
     })
 }
 
