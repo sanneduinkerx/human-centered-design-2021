@@ -12,9 +12,15 @@
 
     <header>
         <p>Podcast Transcript</p>
-        <button class="option">Options</button>
+        <button class="option optionStyle">Options</button>
         <div id="options">
-            <input type="range" min="1" max="100" value="20" class="slider" id="myRange">
+            <label for="fontSize">Font-size: <span id="value1">22</span>px</label>
+            <input type="range" min="12" max="72" value="22" class="slider" id="fontSize"> 
+
+            <label for="interlinie">line-height: <span id="value2">33</span>px</label>
+            <input type="range" min="12" max="70" value="33" class="slider" id="interlinie"> 
+
+            <button class="optionStyle darkMode"> Mode </button>
         </div>
 
     </header>

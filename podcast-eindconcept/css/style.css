@@ -23,6 +23,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 100;
+    font-size: 18px;
 }
 
 header p{
@@ -34,13 +35,11 @@ header > p{
     font-weight: 700;
 }
 
-
 .nav {
     color: white;
     justify-content: space-around;
     position: sticky;
     top: 3.4em;
-    /* z-index: 100; */
 }
 
 .nav a{
@@ -58,7 +57,7 @@ div a{
 
 /* button options */
 
-header .option {
+header .optionStyle {
     font-family: 'Open Sans', sans-serif;
     padding: .5em;
     font-size: 18px;
@@ -71,7 +70,7 @@ header .option {
     z-index: 100;
 }
 
-header .option:hover, header .option:focus {
+header .optionStyle:hover{
     background-color: rgb(37, 37, 37);
    cursor: pointer;
 }
@@ -80,33 +79,126 @@ header .option:hover:after{
     content: ' ⚙️';
 }
 
+/*********************/
+/****** DARKMODE ****/
+/*******************/
+
+.darkMode{
+    display: block;
+    margin: 2em auto;
+}
+
+.darkMode:before{
+    content: 'Dark '
+}
+
+.darkMode:after{
+    content: ' 🌔 '
+}
+
+.darkModeActivated .darkMode:before{
+    content: 'Light '
+}
+
+.darkModeActivated .darkMode:after{
+    content: ' 🌞 '
+}
+
+/* darkmode activated */
+
+.darkModeActivated {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.darkModeActivated .transcript ul li {
+    background-color: rgb(0, 0, 0);
+    border: white solid 2px;
+}
+
+
+.darkModeActivated ul li .person1{
+    background-color: rgb(122, 17, 17);
+}
+
+.darkModeActivated ul li .person2{
+    background-color:  rgb(19, 72, 115);
+}
+
+.darkModeActivated ul li .person3{
+    background-color: rgb(132, 83, 27);
+}
+
+.darkModeActivated footer a  {
+    color:rgb(60, 142, 209);
+}
+
+/* menu and option menu */
+
+.darkModeActivated .content {
+    /* border: 2px solid; */
+    background-color: rgb(59, 59, 59);
+}
+
+.darkModeActivated .content a{
+    color: white;
+}
+
+.darkModeActivated #options {
+    background-color:rgb(59, 59, 59) ;
+}
+
+.darkModeActivated .tune {
+    background: rgb(233,71,71);
+    background: linear-gradient(133deg, rgb(136, 20, 20) 7%, rgb(120, 70, 12) 21%, rgb(134, 136, 11) 43%, rgb(36, 113, 12) 63%, rgb(12, 70, 117) 82%); 
+}
+
+.darkModeActivated main a{
+    color:rgb(60, 142, 209);
+}
+
+
+
 /* options menu */
 
 header #options {
-    /* display: none; */
+    display: none;
     position: absolute;
     right: 0;
-    left: 0;
-    top:4.6em;
+    left: 0em;
+    top:4em;
     background-color: black;
     border-bottom: 3px solid;
     color: white;
-    height: 400px;
+    height: 280px;
     border-radius: 0px 0px 10px 10px;   
+}
+
+header.optionsOn #options {
+    display: inline-block;
+}
+
+header.optionsOn .option:after {
+    content: ' ⚙️';
+}
+
+label{
+    text-align: center;
+    margin: 1.5em 1em 1em 1em;
+    display: block;
 }
 
 /* source: https://www.w3schools.com/howto/howto_js_rangeslider.asp */
 
 .slider {
     -webkit-appearance: none;
-    width: 100%;
-    height: 15px;
+    width: 250px;
+    height: 10px;
     border-radius: 5px;  
-    background: #ffffff;
+    background: white;
     outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+    margin: 1em auto;
+    display: block;
   }
   
   .slider::-webkit-slider-thumb {
@@ -118,15 +210,41 @@ header #options {
     background: #406be0;
     cursor: pointer;
   }
-  
+
   .slider::-moz-range-thumb {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    border: 1px solid white;
-    background: #406be0;
+    border: 4px solid #000;
+    background: #fff;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+
+  .slider::-moz-range-thumb:hover {
+    width: 28px;
+    height: 28px;
+    background: rgb(212, 212, 212);
     cursor: pointer;
   }
+
+
+.darkModeActivated .slider::-moz-range-thumb {
+    border: 4px solid rgb(59, 59, 59);
+  }
+
+  .darkModeActivated .slider::-moz-range-thumb {
+    border: 4px solid rgb(59, 59, 59);
+  }
+
+  .darkModeActivated  header .optionStyle:nth-last-of-type() {
+    background-color: rgb(59, 59, 59);
+}
+
+.darkModeActivated  header .optionStyle:nth-last-of-type(){
+    background-color: rgb(90, 90, 90);
+   cursor: pointer;
+}
 
 /****************************/
 /****** EDITOR MODE  *******/
@@ -138,21 +256,9 @@ header  p a{
     font-weight: 400;
 }
 
-.menu {
-    position: absolute;
-    background-color: blueviolet;
-    top: -10em;
-    right: 0em;
-}
-
-.menu.show{
-    top: 2em;
-    right: 0em;
-}
-
-/****************************/
+/***********************/
 /****** content *******/
-/**************************/
+/*********************/
 
 .solid {
     border-top: 3px solid #bbb;
@@ -213,7 +319,6 @@ main{
 }
 
 main section:nth-of-type(2) li{
-    
     margin: 1em 0em;
     background-color: rgb(190, 190, 190);
     border-radius: 10px;
@@ -469,17 +574,12 @@ footer p{
 
     .content {
         position: sticky;
-        top: 4.6em;
+        top: 5em;
     }
 
-
-
     #intro header #options {
-        /* display: none; */
         right: 0em;
-        /* top: ; */
         left: auto;
-        /* height: 500px; */
         width: 400px;
         border-radius: 0px 0px 0px 10px;
         border-bottom: none;
