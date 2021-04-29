@@ -128,13 +128,7 @@ Binnen mijn ontwerp heb ik gekke dingen of grappige dingen toegevoegd om te kijk
 
 Binnen dit vak heb ik geleerd om voor 1 persoon een ontwerp te maken, dat echt bij die persoon past. Ik vond dit zelf een interessante en leuke ervaring. Ik heb nooit eerder zo'n mogelijkheid gehad om te testen op toegankelijkheid met Darice. Door de verschillende testen heb ik in kaart kunnen brengen wat de user needs en wants zijn van Darice en wat zij zelf het prettigste vind. Omdat ik meerdere keren heb getest heb ik goed kunnen leren hoe je kunt testen. Het was leuk om te zien hoe Darice zo enthousiast werd van de verschillende prototypes en hiermee haar ervaring verbeterd met het lezen van een podcast transcript. 
 
-...
-
-- ux principles bij darice
-- add nonsense soms lastig maar wel leuk om toe te passen
-- sommige aannames klopte niet
-- en sommige designs werkte juist heel goed 
-- onverwachte dingen
+Tijdens het testen bleef het lastig om soms te focussen op de exclusive design principles omdat Darice zelf zo gericht is op de ux principles. Maar het was leuk om te zien wanneer ik werk om de ux principles heen dat Darice er alsnog enthousiast over werd. Aannames zoals kleur met toon of emotie associeren en een foto van de gasten in de podcast waren onjuist en andere dingen werkte juist weer heel goed zoals het aangeven van een intro tune en tussendoor aangeven wie er lacht, niet binnen de tekst. Het was een leuke ervaring om exclusief voor Darice een ontwerp te maken met haar eigen identeit.
 
 ### Do's ✅ & Dont's ⛔️ testen 
 
