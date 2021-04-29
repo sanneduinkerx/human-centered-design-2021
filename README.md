@@ -110,20 +110,19 @@ Bekijk [hier](https://sanneduinkerx.github.io/human-centered-design-2021/podcast
 
 ## Exclusive Design principles 💬
 
-- leg de principes uit
-- en hoe je dit hebt toegepast
+Het web is een chaos en dat weten we. We denken vooral aan de gebruikers die zoals wij zijn, vaak zelfs designers en weten eigenlijk niet hoe andere gebruikers met weinig kennis van web design het web gebruiken. Je ziet dan al snel dat gebruikers met een disability de schuld bij zichzelf leggen terwijl het eigenlijk onze verantwoordelijkheid is als designers om dit op te lossen. Door te focussen op exclusive design om een ontwerp te maken speciaal voor 1 persoon, loop je tegen aannames aan die niet kloppen en vind je allemaal oplossingen die misschien helemaal niet werken of juist wel. En maak je het web toegankelijk voor iedereen.
 
 ### Study Situation 🔍
-...
+Door de kennismakingstesten en de weken erna heb ik goed in kaart kunnen brengen wat de context is rond de situatie van Darice. Door goed te onderzoeken wat Darice leuk vind en wat haar voorkeuren zijn kan ik zo de beste exclusive oplossing ontwerpen voor Darice. Darice is op latere leeftijd doof geworden en weet dus nog wel wat geluid was. Dit betekent dat ze dus bepaalde tonen of geluid wel snapt van vroeger en ze kan de gewone nederlandse spreektaal, in tegenstelling tot mensen die doof geboren zijn. Door de nadruk toe te passen binnen de transcript probeer ik hiermee de toon over te brengen van een persoon binnen de podcast. Door het exclusief te maken heb ik ook gebruik gemaakt van de podcast Damn, honey die Darice weleens leest. 
 
 ### Ignore Conventions ⛔️
-...
+Omdat Darice zelf houdt en eigenlijk als smaak heeft de ux principles binnen design vond ik dit zelf lastig. Zeker omdat Darice zelf ook een designer is en moeilijk uit te zoeken is of inclusive principles werken voor mensen die doof zijn geworden. Er waren wel aannames zoals dat kleur duidelijk emotie aangeeft of visuele beelden van wie er in de podcast zitten. Dit bleek beide niet goed te werken omdat beelden snel afleiden en emotie met kleur associeren is gewoon heel lastig. En omdat Darice de testpersoon is met een voorkeur voor inclusive design was ik ook een beetje voor alle gebruikers aan het designen wat precies het beste werkt. Maar bijvoorbeeld een lap tekst die bewerkt is zodat het 'makkelijker' lezen is voor Darice, vond ze zelf niet leuk. Ze wilde juist dat er menselijke fouten in de transcript voorkwam, waar hosts bijvoorbeeld struikelen over woorden of er een korte stilte valt. Dus dan is toch een onbewerkte tekst leuker om te lezen.
 
 ### Prioritise Identity 🧑🏻‍🦰
-...
+Wat ook belangrijk is is dat de testpersoon zelf betrekken is binnen het design proces. Dit heb ik binnen deze 3 weken gedaan en was een leuke ervaring. Omdat Darice zelf ook frontend developer is zag ze al snel ontwerpfoutjes of wist ze goed haar mening uit te leggen. Natuurlijk heb ik deze verschillende inzichten van Darice ook goed toegepast binnen mijn ontwerp. Ze gaf bijvoorbeeld de tip om echt de podcast te luisteren, wat vele van ons binnen de groep niet hadden gedaan en daardoor de emotie of toon niet perfect overkwam. Doordat ik de podcast ga luisteren hoor ik sneller de emotie en waar dat plaats vind. Zo kan ik ook het beste voor Darice het overbrengen en vertrouwt ze erop dat het klopt. En omdat Darice soms podcast transcipts luistert van Damn, Honey heb ik een transcript daarvan gebruikt om samen met Darice de beste oplossingen te vinden. Door de weken heen heb ik haar mening gevraagd over visuele aspecten, zoals dark mode of hoe ik de verschillende praatwolkjes kan vormgeven. Met mijn kennis van design en de inzichten van Darice heb ik een goede oplossing kunnen vinden op het probleem van de transcript.
 
 ### Add Nonsense 🤪
-...
+Binnen mijn ontwerp heb ik gekke dingen of grappige dingen toegevoegd om te kijken of dit werkt of niet. Omdat Darice zelf is voor de ux principles was het voor mij lastig iets toe te voegen gewoon als grapje. Toch heb ik door bijvoorbeeld kleine grapjes te verstoppen zoals smileys achter een grappige opmerking of een kleine verassing als je op de intro tune klikt, het kunnen toepassen. Daarmee gaf Darice ook zelf aan dat het meer een gimmick is. Maar tijdens het testen viel het me toen wel op dat Darice alsnog enthousiast werd van de verschillende verstopte grapjes. In de tweede week had ik ook de intro tune toegepast gewoon omdat het het ontwerp opfleurt, maar Darice vond dit een *nice detail*. En door dit soort dingen loop je ergens tegen aan of zie je toch dat bepaalde ideetjes goed kunnen werken. Omdat Darice aangaf dat de intro tune goed werktte heb ik dit doorgetrokken in mijn hele ontwerp. 
 
 ## Conclusie 📝
 
@@ -157,7 +156,7 @@ Binnen dit vak heb ik geleerd om voor 1 persoon een ontwerp te maken, dat echt b
 <!-- - [X] Maak verschillende ontwerpen, versies en varianten van je opdracht. Experimenteer met verschillende vormen van interactie en vormgeving. Wat werkt goed? Wat werkt niet goed?
 - [X] Beschrijf je mens met een User Scenario.
 - [X] Test je ideeen en ontwerp 3 keer met jouw mens. Verbeter je ontwerp op basis van de feedback die je hebt gekregen uit de tests. Documenteer de testen goed.
-- [ ] Leg de exclusive design principles uit en beschrijf hoe je die hebt toegepast.
+- [X] Leg de exclusive design principles uit en beschrijf hoe je die hebt toegepast.
 - [ ] Zorg dat je voor de beoordeling in je Readme (of wiki) een conclusie schrijft waar je in gaat op de leerdoelen en criteria en hoe je dit hebt gehaald. Dit is je bewijsvoering voor het vak. -->
 
 <!-- ## Het ontwerp -->
