@@ -6,7 +6,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 0em;
     z-index: 0;
-    position: relative;
+    /* position: relative; */
 }
 
 /*********************/
@@ -86,6 +86,7 @@ header .option:hover:after{
 .darkMode{
     display: block;
     margin: 2em auto;
+
 }
 
 .darkMode:before{
@@ -239,50 +240,6 @@ header  p a{
     text-transform: lowercase;
     font-weight: 400;
 }
-
-/***********************/
-/****** content *******/
-/*********************/
-
-
-
-.content {
-    background-color:black;
-    padding: 5px 20px;
-    color: white;
-    border-radius: 10px;
-    position: sticky;
-    top: 10em;
-}
-
-
-.content a{
-    /* color: black; */
-    color: white;
-}
-
-.content p:hover {
-    cursor: pointer;
-}
-
-
-.content p strong:after{
-    content: ' ➡️';
-}
-
-.content.show p strong:after{
-    content: ' ⬇️'
-}
-
-.content.show ul{
-    display: block;
-}
-
-.content ul {
-    display: none;
-
-}
-
 /*************************/
 /****** TRANSCRIPT ******/
 /***********************/
@@ -291,7 +248,12 @@ header  p a{
 main{
     margin: 1em;
     font-size: 20px;
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-column-gap: 2em; */
 }
+
 
 .transcript {
     margin: auto;
@@ -330,6 +292,59 @@ main section:nth-of-type(2) ul li p:first-of-type{
 main section:nth-of-type(2) ul li p i{
     font-weight: bold;
 }
+
+
+/***********************/
+/****** content *******/
+/*********************/
+
+main {
+    position: relative;
+    top: 4em;
+}
+
+.content {
+    background-color:black;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    position: fixed;
+    top: 5em;
+    width: 82%;
+    z-index: 90;
+    box-shadow: 0px 0px 0px 22px white;
+}
+
+.darkModeActivated .content{
+    box-shadow: 0px 0px 0px 22px rgb(26, 26, 26);
+}
+
+.content a{
+    /* color: black; */
+    color: white;
+}
+
+.content p:hover {
+    cursor: pointer;
+}
+
+
+.content p strong:after{
+    content: ' ➡️';
+}
+
+.content.show p strong:after{
+    content: ' ⬇️'
+}
+
+.content.show ul{
+    display: block;
+}
+
+.content ul {
+    display: none;
+}
+
 
 
 /*************/
@@ -401,16 +416,13 @@ body ul li.lacht .person3Lacht{
 
 /* lachen hover interaction */
 
-body ul li.lacht span:last-of-type:hover:after{
+body ul li.lacht span:last-of-type:after{
     content: ' 😄';
     font-style: normal;
-    /* font-size: 28px; */
-    /* color:rgb(194, 130, 57); */
 }
 
 body ul li.lacht span:last-of-type{
     border-bottom: dashed 2px black;
-    /* color:rgb(194, 130, 57); */
 }
 
 .darkModeActivated ul li.lacht span:last-of-type{
@@ -430,6 +442,17 @@ body ul li.lacht span:last-of-type{
     color: black;
 }
 
+.DISCO header > p:after{
+    content: ' 🎉'
+}
+
+.DISCO p.person1:after, .DISCO p.person2:after, .DISCO p.person3:after {
+    content: ' 💃🏼'
+} 
+
+.DISCO .content {
+    box-shadow: none;
+}
 
 body .tune:hover p:after{
     content: "(click me for a surprise)";
@@ -539,36 +562,36 @@ body  .confused, body  .moo, body .genant , body .confound, body .disgusted, bod
     border-bottom: dashed white 2px;
 }
 
-body  .confused:hover:after {
+body  .confused:after {
     content: ' 🤔';
 }
 
-body  .moo:hover:after {
+body  .moo:after {
     content: ' 🐮🥬';
     font-size: 32px;
 }
 
-body .genant:hover:after {
+body .genant:after {
     content: ' 😬'
 }
 
-body .confound:hover:after {
+body .confound:after {
     content: ' 🥴'
 }
 
-body .disgusted:hover:after {
+body .disgusted:after {
     content: ' 🤢'
 }
 
-body .rollsEyes:hover:after {
+body .rollsEyes:after {
+    content: ' 🙄'
+}
+
+body .annoyed:after {
     content: ' 😒'
 }
 
-body .annoyed:hover:after {
-    content: ' 😒'
-}
-
-body .konijn:hover:after{
+body .konijn:after{
     content: ' 🐰'
 }
 
@@ -630,6 +653,8 @@ footer p{
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-column-gap: 2em;
+        top: 0em;
+        
     }
 
     /* transcript */
@@ -661,6 +686,48 @@ footer p{
     .darkModeActivated main .transcript ul li p i.actie{
         background-color: rgb(37, 37, 37);
         /* color: black; */
+    }
+
+    body  .confused:after, body  .moo:after, body .genant:after, body .confound:after,  body .disgusted:after,  body .rollsEyes:after,   body .annoyed:after, body .konijn:after, body ul li.lacht span:last-of-type:after{
+        content: '';
+    }
+    
+    body  .confused:hover:after {
+        content: ' 🤔';
+    }
+
+    body  .moo:hover:after {
+        content: ' 🐮🥬';
+        font-size: 32px;
+    }
+
+    body .genant:hover:after {
+        content: ' 😬'
+    }
+
+    body .confound:hover:after {
+        content: ' 🥴'
+    }
+
+    body .disgusted:hover:after {
+        content: ' 🤢'
+    }
+
+    body .rollsEyes:hover:after {
+        content: ' 🙄'
+    }
+
+    body .annoyed:hover:after {
+        content: ' 😒'
+    }
+
+    body .konijn:hover:after{
+        content: ' 🐰'
+    }
+
+    body ul li.lacht span:last-of-type:hover:after{
+        content: ' 😄';
+        font-style: normal;
     }
     
 }
